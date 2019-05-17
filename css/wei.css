@@ -1,0 +1,37 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea, select {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul{
+    width: 920px;
+    height: 920px;
+    /*margin-left: 10px;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background: #00c1de;
+}
+li{
+width: 299px;
+    height: 299px;
+    border-right: 1px dashed black;
+    border-bottom: 1px dashed black;
+    float: left;
+}
+li:nth-child(3),li:nth-child(6),li:nth-child(9){
+    border-right: none;
+}
+li:nth-child(7) ~li{
+    border-bottom: none;
+}
+li:nth-last-child(3){
+    border-bottom: none;
+}
+li:first-child{
+    border-bottom:1px dashed white;
+}
+/*li:nth-child(3n){*/
+/*    border-bottom: none;*/

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .box{
+            width: 1200px;
+            height: auto;
+            margin: 0 auto;
+            background: #00c1de;
+            overflow: hidden;
+
+
+        }
+        div [active='true']{
+            height: 100px;
+         float: left;
+            padding: 10px;
+            box-sizing: border-box;
+            /*background: #00c1de;*/
+
+        }
+        @media screen and (max-width:786px){
+ .box{
+     background: #ff110e;
+     width: 100%;
+
+ }
+            div[active='true']{
+                width: 100%;
+            }
+        }
+        @media screen and (min-width:786px){
+            .box{
+                background: #e1ffb8;
+                width: 100%;
+
+            }
+            div[active='true']{
+                width: 50%;
+            }
+        }
+        @media screen  and (min-width:992px )
+        {
+            .box{
+                background: #90f5ff;
+                width: 100%;
+
+            }
+            div[active='true']{
+                width: 25%;
+            }
+        }
+        @media screen and (min-width: 1200px){
+.box{
+    background: #ff86e2;
+    width: 100%;
+}
+            div[active='true']{
+                width: 16.666%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div active ='true'>1</div>
+    <div active ='true'>1</div>
+    <div active ='true'>1</div>
+    <div active ='true'>1</div>
+    <div active ='true'>1</div>
+    <div active ='true'>1</div>
+    <div active ='true'>1</div>
+    <div active ='true'>1</div>
+    <div active ='true'>1</div>
+    <div active ='true'>1</div>
+    <div active ='true'>1</div>
+    <div active ='true'>1</div>
+
+</div>
+</body>
+</html>

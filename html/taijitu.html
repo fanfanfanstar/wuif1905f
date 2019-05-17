@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .taiji{
+            height: 400px;
+            width: 0;
+            border-left:200px solid #ffffff;
+            border-right: 200px solid black;
+            border-radius: 50%;
+           margin: 0 auto;
+            animation: taiji 1.5s infinite;
+            position: relative;
+        }
+        .taiji::before{
+            content: "";
+            width: 200px;
+            height: 200px;
+            background: #ffffff;
+            display: block;
+            margin: auto ;
+            position: absolute;
+            border-radius: 50%;
+            top:0;left: -100px;}
+        .taiji::after{
+            content: "";
+            width: 200px;
+            height: 200px;
+            background: black;
+            display: block;
+            margin: auto ;
+            position: absolute;
+            border-radius: 50%;
+            bottom:0;left: -100px;}
+ .red{
+     height: 100px;
+     width:100px;
+     background: black;
+     display: block;
+     border-radius: 50%;
+   left: -50px;
+     top: 50px;
+     z-index: 999;
+     position: absolute;
+ }
+        .black{
+            height: 100px;
+            width:100px;
+            background: white;
+            display: block;
+            border-radius: 50%;
+            left: -50px;
+            top: 250px;
+            z-index: 999;
+            position: absolute;
+        }
+@keyframes taiji {
+    form{transform:rotateZ(0deg)}
+    to{transform: rotateZ(360deg)}
+}
+    </style>
+</head>
+<body>
+<div class="taiji">
+    <div class="red">   </div>
+        <div class="black"></div>
+
+</div>
+</body>
+</html>

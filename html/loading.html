@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .mask {
+            position: fixed;
+            /*background: rgba(0, 0, 0, 0.9);*/
+            background: black;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background: black;
+            border-radius: 50%;
+        }
+
+        .circle {
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            transform: rotateZ(0deg);
+            position: absolute;
+
+        }
+
+        .circle::before {
+            content: "";
+            position: absolute;
+            left: 90px;
+            top: 0;
+            width: 20px;
+            height: 20px;
+            background: white;
+            border-radius: 50%;
+            animation: loading 1.2s infinite ease;
+        }
+
+        .circle:nth-child(2) {
+            transform: rotateZ(30deg);
+        }
+
+        .circle:nth-child(3) {
+            transform: rotateZ(60deg);
+        }
+
+        .circle:nth-child(4) {
+            transform: rotateZ(90deg);
+        }
+
+        .circle:nth-child(5) {
+            transform: rotateZ(120deg);
+        }
+
+        .circle:nth-child(6) {
+            transform: rotateZ(150deg);
+        }
+
+        .circle:nth-child(7) {
+            transform: rotateZ(180deg);
+        }
+
+        .circle:nth-child(8) {
+            transform: rotateZ(210deg);
+        }
+
+        .circle:nth-child(9) {
+            transform: rotateZ(240deg);
+        }
+
+        .circle:nth-child(10) {
+            transform: rotateZ(270deg);
+        }
+
+        .circle:nth-child(11) {
+            transform: rotateZ(300deg);
+        }
+
+        .circle:nth-child(12) {
+            transform: rotateZ(330deg);
+        }
+
+        .circle:nth-child(2)::before {
+            animation-delay: 0.1s;
+        }
+
+        .circle:nth-child(3)::before {
+            animation-delay: 0.15s;
+        }
+
+        .circle:nth-child(4)::before {
+            animation-delay: 0.2s;
+        }
+
+        .circle:nth-child(5)::before {
+            animation-delay: 0.25s;
+        }
+
+        .circle:nth-child(6)::before {
+            animation-delay: 0.3s;
+        }
+
+        .circle:nth-child(7)::before {
+            animation-delay: 0.35s;
+        }
+
+        .circle:nth-child(8)::before {
+            animation-delay: 0.4s;
+        }
+
+        .circle:nth-child(9)::before {
+            animation-delay: 0.45s;
+        }
+
+        .circle:nth-child(10)::before {
+            animation-delay: 0.5s;
+        }
+
+        .circle:nth-child(11)::before {
+            animation-delay: 0.55s;
+        }
+
+        .circle:nth-child(12)::before {
+            animation-delay: 0.6s;
+        }
+
+
+        @keyframes loading {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="mask">
+    <div class="box">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+</div>
+</body>
+</html>
