@@ -374,7 +374,7 @@ a{
     /*height: 2800px;*/
     background: red;
     margin: 20px auto;
-    
+
 }
 .zhuantisumleft{
     width: 900px;
@@ -813,6 +813,7 @@ a{
     color: maroon;
     font-size: 16px;
 }
+
 .ylk li::before{
     content: "";
     /*display: block;*/

@@ -71,7 +71,7 @@ a{
     width: 1200px;
     margin: 20px auto;
     min-height: 600px;
-    background: #4ebbfe;
+    /*background: #4ebbfe;*/
     /*overflow: hidden;*/
 }
 .left{
@@ -84,7 +84,7 @@ a{
 }
 .right{
     width: 282px;
-    float: left;
+    float: right;
     margin-left: 18px;
     background: #fca2a3;
     min-height: 600px;
@@ -254,4 +254,217 @@ a{
 }
 .title:hover::before{
     width: 110px;
+}
+
+.rank{
+    width: 280px;
+    background: #fca2a3;
+    /*margin-top: 18px;*/
+    float: right;
+    margin-bottom:10px ;
+
+}
+.ranknew{
+    width: 100%;
+    height: 100%;
+    padding: 0 20px 0 0;
+    margin-bottom: 20px;
+    overflow: hidden;
+    /*float: left;*/
+    /*position: relative;*/
+    /*background: #333333;*/
+}
+.ranknew li i{
+    width: 24px;
+    height: 24px;
+    background: dimgray;
+    float: left;
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: block;
+    position: relative;
+    font-style: normal;
+}
+.ranknew li i::before{
+    font-size: 15px;
+    color: white;
+    line-height: 24px;
+    width: 24px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.ranknew li:first-child i::before{
+    content:'1';
+}
+.ranknew li:nth-child(2) i::before{
+    content:'2';
+}
+.ranknew li:nth-child(3) i::before{
+    content: '3';
+}
+.ranknew li:nth-child(4) i::before{
+    content: '4';
+}
+.ranknew li:nth-child(5) i::before{
+    content: '5';
+}
+.ranknew li:nth-child(6) i::before{
+    content: '6';
+}
+.ranknew li:nth-child(7) i::before{
+    content: '7';
+}
+.ranknew li:first-child i ,.ranknew li:nth-child(2) i , .ranknew li:nth-child(3) i{
+    background: orangered;
+}
+.ranknew .dan{
+    margin-top: 10px;
+    height: 38px;
+    margin-top: 12px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: white;
+    line-height: 38px;
+    text-align: center;
+    overflow: hidden;
+    /*float: left;*/
+}
+.ranknew .two{
+    margin-top: 10px;
+    height: 38px;
+    margin-top: 12px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: #f3f3f3;
+    line-height: 38px;
+    text-align: center;
+    overflow: hidden;
+    /*float: left;*/
+}
+.ranknew a{
+    font-size: 15px;
+    color: black;
+}
+.webtuijian{
+    width: 260px;
+    /*min-height: 600px;*/
+    margin: 10px;
+    background: #fca2a3;
+    /*margin-top: 20px;*/
+    /*padding-right: 30px;*/
+    /*padding-left: 20px;*/
+    float: left;
+    overflow:hidden;
+}
+.tuijianlist{
+    width: 280px;
+    /*min-height: 600px;*/
+    background: #fca2a3;
+
+}
+.tuijianli{
+    width: 260px;
+    height: 68px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    /*margin-bottom: 20px;*/
+    background: white;
+    line-height: 34px;
+    /*padding-top: 20px;*/
+}
+.tuijianli .tuijianpic{
+    width: 70px;
+    height: 67px;
+    float: left;
+    background: #00c1de;
+}
+.tuijianli .tuijiantit{
+    margin-left: 10px;
+    background: white;
+    width: 180px;
+    float: right;
+    color: black;
+}
+.jianxi{
+    height: 20px;
+    width: 100%;
+    background:aliceblue
+;float: right;
+}
+.bottonkuang{
+    width: 100%;
+    margin-top: 20px;
+    min-height: 100px;
+    background: #90f5ff;
+    float: left;
+    overflow: hidden;
+}
+.bottonkuangin{
+    width: 100%;
+    min-height: 100px;
+    margin-top: 10px;
+    background: #fca2a3;
+    float: left;
+}
+.bottonin{
+    width: 1200px;
+    margin:20px auto ;
+    background: #fca2a3;
+    min-height: 110px;
+}
+.bottoninleft{
+    margin-left: 20px;
+    width: 220px;
+    height: 100px;
+    background: #fca2a3;
+    float: left;
+}
+.bottoninleft li {
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    background: #f3f3f3;
+    float: left;
+}
+.bottonrigt{
+    margin-left: 20px;
+    width: 900px;
+    min-height: 100px;
+    background: #fca2a3;
+    /*display: block;*/
+    float: left;
+
+}
+.youlike{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 260px;
+    min-height: 100px;
+    background: #fca2a3;
+}
+.llinformtion{
+    min-height: 100px;
+    width: 100%;
+    padding: 10px;
+    background: #fca2a3;
+    margin-right: 5px;
+    overflow: hidden;
+}
+.llinformtion ul{
+    margin-top: 15px;
+    margin-right: 5px;
+}
+.llinformtion img{
+    width: 260px;
+}
+.llinformtion ul li{
+    margin-top: 15px;
+    margin-right: 5px;
 }
