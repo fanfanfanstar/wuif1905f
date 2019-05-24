@@ -1,0 +1,168 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea, select {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 宋体,微软雅黑,sans-serif;
+    font-size: 16px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.header {
+    width: 100%;
+    height: 60px;
+    background: black;
+}
+
+.headerBox {
+    width: 1200px;
+    height: 100%;
+    /*background: black;*/
+    margin: 0 auto;
+    /*font-size: 17px;*/
+}
+
+.headerBox h3 {
+    /*width: 154px;*/
+    height: 100%;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    margin-right: 75px;
+    float: left;
+}
+
+.nav {
+    /*width: 750px;*/
+    height: 100%;
+    /*background: black;*/
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    float: left;
+}
+.nav li{
+    float: left;
+    margin-right: 36px;
+}
+.nav li a:hover{
+    color: #00c1de;
+    /*点击变色*/
+
+}
+
+.search {
+    width: 40px;
+    height: 100%;
+    /*background: lightpink;*/
+    margin: 0 auto ;
+    float: left;
+}
+.backgroundk{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.backgroundt{
+    width: 100%;
+    overflow: hidden;
+    background: url("../image/abbg.png") #ffffff no-repeat right top ;
+    padding: 20px 40px;
+}
+.bmy{
+    margin: 20px 0;
+    overflow: hidden;
+}
+.bmy i{
+    /*width: 100px;*/
+    /*    height: 100px;*/
+    display: block;
+    float: left;
+    margin-right:10px ;
+}
+.bmy > i > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+}
+.bmy h3{
+    margin: 10px;
+}
+.bmy p{
+    margin: 10px;
+}
+.heart{
+    margin: 20px 0;
+    font-size: 18px;
+    background: url(../image/hline.png) no-repeat bottom right;
+    width: 120px;
+    background-size: 40px;
+    border-bottom: #000 1px dashed;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+.heartsay{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.bottonkuang{
+    width: 100%;
+    margin-top: 20px;
+    min-height: 100px;
+    background: #90f5ff;
+    float: left;
+    overflow: hidden;
+}
+.bottonkuangin{
+    width: 100%;
+    min-height: 100px;
+    margin-top: 10px;
+    background: #fca2a3;
+    float: left;
+}
+.bottonin{
+    width: 1200px;
+    margin:20px auto ;
+    background: #fca2a3;
+    min-height: 110px;
+}
+.bottoninleft{
+    margin-left: 20px;
+    width: 220px;
+    height: 100px;
+    background: #fca2a3;
+    float: left;
+}
+.bottoninleft li {
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    background: #f3f3f3;
+    float: left;
+}
+.bottonrigt{
+    margin-left: 20px;
+    width: 900px;
+    min-height: 100px;
+    background: #fca2a3;
+    /*display: block;*/
+    float: left;
+
+}
+.bottonrigt li{
+    font-size:14px ;
+    line-height: 1.5;
+    color: #352d1c;
+    margin-bottom: 10px;
+}
