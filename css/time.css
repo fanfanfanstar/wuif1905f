@@ -71,7 +71,7 @@ a{
     margin: 0 auto;
     /*min-height: 900px;*/
     margin-top: 20px;
-    background: #fca2a3;
+    background: #c9dfff;
     /*overflow: hidden;*/
 
 
@@ -183,20 +183,20 @@ a{
     width: 100%;
     min-height: 100px;
     margin-top: 10px;
-    background: #fca2a3;
+    background: #c9dfff;
     float: left;
 }
 .bottonin{
     width: 1200px;
     margin:20px auto ;
-    background: #fca2a3;
+    background: #c9dfff;
     min-height: 110px;
 }
 .bottoninleft{
     margin-left: 20px;
     width: 220px;
     height: 100px;
-    background: #fca2a3;
+    background: #c9dfff;
     float: left;
 }
 .bottoninleft li {
@@ -210,7 +210,7 @@ a{
     margin-left: 20px;
     width: 900px;
     min-height: 100px;
-    background: #fca2a3;
+    background:#c9dfff;
     /*display: block;*/
     float: left;
 

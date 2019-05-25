@@ -78,7 +78,7 @@ a{
     width: 900px;
     float: left;
     height: 100%;
-    background: #ff86e2;
+    background: #c9dfff;
     min-height: 600px;
     /*overflow: hidden;*/
 }
@@ -86,7 +86,7 @@ a{
     width: 282px;
     float: right;
     margin-left: 18px;
-    background: #fca2a3;
+    background: #c9dfff;
     min-height: 600px;
     /*overflow: hidden;*/
 }
@@ -117,14 +117,14 @@ a{
 .news{
     width: 100%;
     min-height: 600px;
-    background: #fca2a3;
+    background: #c9dfff;
     margin-top: 20px;
     padding-bottom: 20px;
     float: left;
     overflow:hidden;
 }
 .news ul{width: 900px;
-    background: #fca2a3;
+    background: #c9dfff;
     /*height: 300px;*/
     min-height: 600px;
     float: left;
@@ -258,7 +258,7 @@ a{
 
 .rank{
     width: 280px;
-    background: #fca2a3;
+    background:#c9dfff;
     /*margin-top: 18px;*/
     float: right;
     margin-bottom:10px ;
@@ -355,7 +355,7 @@ a{
     width: 260px;
     /*min-height: 600px;*/
     margin: 10px;
-    background: #fca2a3;
+    background: #c9dfff;
     /*margin-top: 20px;*/
     /*padding-right: 30px;*/
     /*padding-left: 20px;*/
@@ -365,7 +365,7 @@ a{
 .tuijianlist{
     width: 280px;
     /*min-height: 600px;*/
-    background: #fca2a3;
+    background: #c9dfff;
 
 }
 .tuijianli{
@@ -410,20 +410,20 @@ a{
     width: 100%;
     min-height: 100px;
     margin-top: 10px;
-    background: #fca2a3;
+    background: #c9dfff;
     float: left;
 }
 .bottonin{
     width: 1200px;
     margin:20px auto ;
-    background: #fca2a3;
+    background: #c9dfff;
     min-height: 110px;
 }
 .bottoninleft{
     margin-left: 20px;
     width: 220px;
     height: 100px;
-    background: #fca2a3;
+    background: #c9dfff;
     float: left;
 }
 .bottoninleft li {
@@ -438,7 +438,7 @@ a{
     margin-left: 20px;
     width: 900px;
     min-height: 100px;
-    background: #fca2a3;
+    background: #c9dfff;
     /*display: block;*/
     float: left;
 
@@ -454,13 +454,13 @@ a{
     margin-bottom: 10px;
     width: 260px;
     min-height: 100px;
-    background: #fca2a3;
+    background:#c9dfff;
 }
 .llinformtion{
     min-height: 100px;
     width: 100%;
     padding: 10px;
-    background: #fca2a3;
+    background: #c9dfff ;
     margin-right: 5px;
     overflow: hidden;
 }

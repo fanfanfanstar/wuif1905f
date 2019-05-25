@@ -245,7 +245,7 @@ a{
 .diary {
     width: 860px;
     height: 270px;
-    background:#fca2a3;
+    background:#c9dfff;
     border-radius: 5px;
     padding: 20px;;
     float: left;
@@ -266,7 +266,7 @@ a{
     width: 275px;
     height: 220px;
     margin-top: 10px;
-    background: #fca2a3;
+    background:#c9dfff;
     float: left;
 }
 .diarytab li{
@@ -286,7 +286,7 @@ a{
     margin-left: 20px;
     /*margin-top: 10px;*/
     margin-top: 20px;
-    background: #fca2a3;
+    background: #c9dfff;
     overflow: hidden;
     float: left;
     display: block;
@@ -327,7 +327,7 @@ a{
 .inform {
     width: 242px;
     height: 310px;
-    background: #fca2a3;
+    background: #c9dfff;
     margin-left: 18px;
     float: left;
     /*margin-left: 20px;*/
@@ -394,7 +394,7 @@ a{
 .zhuantisumleft ul{
     width: 900px;
     /*height: 618px;*/
-    background: #fca2a3;
+    background: #c9dfff;
     float: left;
      /*margin: 20px 10px;*/
     padding-right: 10px;
@@ -402,7 +402,7 @@ a{
 }
 .navigation{
     height: 61px;
-    background: #fca2a3;
+    background: #c9dfff;
     /*padding-left: 10px;*/
     /*padding-right: 10px;*/
 }
@@ -441,7 +441,7 @@ a{
     /*overflow: hidden;*/
     border-radius: 5px;
     margin: 10px;
-    background:   #fca2a3;
+    background:   #c9dfff;
      /*transition:5s linear 1s ;*/
     padding-right: 10px;
 
@@ -497,7 +497,7 @@ a{
 }
 .rank{
     width: 280px;
-    background: #fca2a3;
+    background: #c9dfff;
     /*margin-top: 18px;*/
     float: right;
 
@@ -599,14 +599,14 @@ a{
 .news{
     width: 100%;
     min-height: 600px;
-    background: #fca2a3;
+    background:#c9dfff;
     margin-top: 20px;
     padding-bottom: 20px;
     float: left;
     overflow:hidden;
 }
 .news ul{width: 900px;
-    background: #fca2a3;
+    background: #c9dfff;
     /*height: 300px;*/
     min-height: 600px;
     float: left;
@@ -727,7 +727,7 @@ a{
 .webtuijian{
     width: 280px;
     min-height: 600px;
-    background: #fca2a3;
+    background: #c9dfff;
     /*margin-top: 20px;*/
     padding-right: 30px;
     /*padding-left: 20px;*/
@@ -737,7 +737,7 @@ a{
 .tuijianlist{
     width: 280px;
     /*min-height: 600px;*/
-    background: #fca2a3;
+    background: #c9dfff;
 
 }
 .tuijianli{
@@ -770,7 +770,7 @@ a{
     width: 310px;
     min-height: 111px;
     /*float: left;*/
-    background: #fca2a3;
+    background: #c9dfff;
     overflow: hidden;
 }
 .youlike{
@@ -778,13 +778,13 @@ a{
     margin-bottom: 10px;
     width: 310px;
     min-height: 100px;
-    background: #fca2a3;
+    background: #c9dfff;
 }
 .ylk {
     min-height: 100px;
     width: 100%;
     padding: 10px;
-    background: #fca2a3;
+    background: #c9dfff;
     margin-right: 5px;
     overflow: hidden;
 }
@@ -831,7 +831,7 @@ a{
     min-height: 100px;
     width: 100%;
     padding: 10px;
-    background: #fca2a3;
+    background: #c9dfff;
     margin-right: 5px;
     overflow: hidden;
 }
@@ -874,20 +874,20 @@ a{
 width: 100%;
     min-height: 100px;
     margin-top: 10px;
-    background: #fca2a3;
+    background: #c9dfff;
     float: left;
  }
 .bottonin{
     width: 1200px;
     margin:20px auto ;
-    background: #fca2a3;
+    background:#c9dfff;
     min-height: 110px;
 }
 .bottoninleft{
     margin-left: 20px;
     width: 220px;
     height: 100px;
-    background: #fca2a3;
+    background: #c9dfff;
     float: left;
 }
 .bottoninleft li {
@@ -901,7 +901,7 @@ width: 100%;
     margin-left: 20px;
     width: 900px;
    min-height: 100px;
-    background: #fca2a3;
+    background: #c9dfff;
 /*display: block;*/
     float: left;
 
