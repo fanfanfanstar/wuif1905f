@@ -134,7 +134,7 @@ a{
     top: 50%;
     margin-top: -16px;
     position: absolute;
-    background: pink;
+    /*background: pink;*/
     cursor: pointer;
     z-index: 9999;
 
