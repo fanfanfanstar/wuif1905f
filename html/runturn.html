@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/jquery-3.4.1.min.js"></script>
+    <style>
+        body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea, select {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        body {
+            background-color: aliceblue;
+            font-family: 宋体,微软雅黑,sans-serif;
+            font-size: 16px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        .mleft {
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 620px;
+            height: 280px;
+            background:white;
+            float: left;
+            position: relative;
+            overflow: hidden;
+        }
+        .moddleimg{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            /*left: 0px;*/
+            /*top: 0;*/
+            /*z-index: 100;*/
+        }
+        .moddleimg li:first-child{
+            position: absolute;
+            left: 0px;
+            top: 0;
+
+        }
+        .moddleimg li:nth-child(2){
+            z-index: 0;
+            left: 620px;
+        }
+        .moddleimg li:nth-child(3){
+
+            left: 620px;
+
+        }
+        .moddleimg li:nth-child(4){
+            z-index: 0;
+            left: 620px;
+
+        }
+        /*.moddleimg li:nth-last-child{*/
+        /*    z-index: 1;*/
+        /*}*/
+        .moddleimg li{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+
+        }
+        .moddleimg li a{
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+        .mleft .leftbtn, .rightbtn{
+            width: 40px;
+            height: 32px;
+            top: 50%;
+            margin-top: -16px;
+            position: absolute;
+            background: pink;
+            cursor: pointer;
+            z-index: 9999;
+
+        }
+        .leftbtn{
+            left: 50px;
+            /*margin-left: auto;*/
+        }
+        .rightbtn{
+            right: 50px;
+            /*margin-right:auto ;*/}
+
+        .mleft .dian{
+            width: 96px;
+            height: 10px;
+            left: 0;
+            right: 0;
+            margin-right: auto;
+            margin-left: auto;
+            position: absolute;
+            z-index: 99999;
+            /*background: #00c1de;*/
+            margin-top: -36px;
+
+
+        }
+        .dian li{
+            width: 10px;
+            height: 10px;
+            margin-right: 14px;
+            float: left;
+            border-radius: 50%;
+            background: #00c1de;
+        }
+    </style>
+</head>
+<body>
+<spon class="mleft">
+    <ul class="moddleimg">
+        <li>
+            <a href="">
+                <img src="../image/1.jpg" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="../image/timgEW4E3N2F.jpg" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="../image/timg%5B5%5D.jpg" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="../image/text01.jpg" alt="">
+            </a>
+        </li>
+    </ul>
+    <div class="leftbtn"></div>
+    <div class="rightbtn"></div>
+    <ul class="dian">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</spon>
+<script>
+    $ (function () {
+        let mleft = $('.mleft')
+
+    })
+</script>
+</body>
+</html>
